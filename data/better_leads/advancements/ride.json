@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "nbt": "{Leash:{}}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "better_leads:ride/on_ride"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "player": {
+                    "flags": {
+                        "is_sneaking": false
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:leash_knot"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "better_leads:untied_knot/on_untied_knot"
+    }
+}
