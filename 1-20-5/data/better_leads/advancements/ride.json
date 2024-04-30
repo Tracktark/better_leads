@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "#better_leads:ridable"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "better_leads:ride/on_ride"
+    }
+}
